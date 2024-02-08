@@ -22,17 +22,6 @@ img {
 
 /* #endregion */
 
-/* #region DEBUG */
-.debug>* {
-    border: 2px dashed lightpink;
-}
-
-.debug>* * {
-    border: 2px dashed lightgreen;
-}
-
-/* #endregion */
-
 /* #region GRID LAYOUT */
 .container-big,
 .container-small {
@@ -199,6 +188,41 @@ a {
 
 .hero .fa-arrow-down {
     margin: 80px 0 0;
+}
+
+/* #endregion */
+
+/* #region MAIN */
+main {
+    background: #ffffff;
+    padding: 160px 0 150px;
+}
+
+.debug .container-small {
+    border: 2px dashed red;
+}
+
+
+.business-plan .col-30,
+.business-row {
+    border: 1px solid #d0d0d0;
+}
+
+.debug .business-plan .col-30 {
+    height: 650px;
+}
+
+.business-plan .row>:not(:last-child) {
+    margin: 0 49.7px 0 0;
+}
+
+.business-row {
+    margin: 50px 0 0;
+}
+
+.debug .business-row {
+    width: 996px;
+    height: 256px;
 }
 
 /* #endregion */

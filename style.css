@@ -7,6 +7,21 @@
 
 /* #endregion */
 
+/* #region GENERAL */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* #endregion */
+
 /* #region DEBUG */
 .debug>* {
     border: 2px dashed lightpink;
@@ -22,14 +37,61 @@
 
 /* #endregion */
 
+/* #region BUTTON */
+.btn {
+    padding: 10px 16px;
+    background: transparent;
+    border: transparent;
+}
+
+.btn-blue {
+    color: #ffffff;
+    background: #0061ff;
+}
+
+/* #endregion */
+
+/* #region TYPOGRAPHY */
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* #endregion */
+
 /* #region HEADER */
 header {
+    padding: 20px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.header-left,
+.header-right {
+    display: flex;
 }
 
 header ul {
+    padding: 10px 0;
     display: flex;
+}
+
+header ul li:not(:last-child) {
+    margin: 0 40px 0 0;
+}
+
+.header-left .logo {
+    height: 25px;
+    margin: 8px 40px 0 0;
+}
+
+header .btn {
+    margin: 0 0 0 20px;
 }
 
 /* #endregion */

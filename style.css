@@ -6,3 +6,30 @@
 }
 
 /* #endregion */
+
+/* #region DEBUG */
+.debug>* {
+    border: 2px dashed lightpink;
+}
+
+.debug>* * {
+    border: 2px dashed lightgreen;
+}
+
+.debug>header {
+    min-height: 80px;
+}
+
+/* #endregion */
+
+/* #region HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+}
+
+/* #endregion */

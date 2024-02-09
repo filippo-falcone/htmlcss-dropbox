@@ -507,7 +507,7 @@ main {
 }
 
 .square-center {
-    padding: 30px;
+    padding: 46px;
     display: block;
 }
 
@@ -538,7 +538,7 @@ main {
 }
 
 .team-square-small.bg-green {
-    border: 10px solid #d1e9cd
+    border: 15px solid #d1e9cd
 }
 
 .team-bottom {

@@ -142,7 +142,7 @@ h2 {
     font-size: 25px;
 }
 
-.business-plan .col-main .price {
+.business-plan .price {
     font-weight: 700;
 }
 
@@ -277,10 +277,14 @@ main {
     margin: 0 0 0 8px;
 }
 
-.business-plan .col-30>.col-header {
-    padding: 12px 0;
+.business-plan .col-header,
+.business-plan .row-header {
     border-bottom: 1px solid #d0d0d0;
     text-align: center;
+}
+
+.business-plan .col-30>.col-header {
+    padding: 12px 0;
 }
 
 .business-plan .col-30>.col-main {
@@ -288,7 +292,11 @@ main {
 }
 
 .business-plan .col-main .price {
-    margin: 26px 0 16px;
+    margin: 26px 0 0;
+}
+
+.business-plan .col-main div:nth-child(3) {
+    margin: 16px 0 0;
 }
 
 .business-plan .col-main li {
@@ -324,6 +332,32 @@ main {
 
 .business-row {
     margin: 50px 0 0;
+}
+
+.business-row .row-header {
+    padding: 16px 0;
+}
+
+.business-row .row-main {
+    padding: 28px;
+}
+
+.business-row .main-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.business-row .main-top h3 {
+    align-self: flex-start;
+}
+
+.business-row .main-top.btn.btn-big.btn-blue {
+    justify-content: flex-end;
+    align-self: flex-end;
+}
+
+.business-row .row-main .price {
+    margin: 20px 0 56px;
 }
 
 /* #endregion */

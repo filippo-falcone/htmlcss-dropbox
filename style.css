@@ -8,9 +8,6 @@
 /* #endregion */
 
 /* #region GENERAL */
-body {
-    font-family: 'Open Sans', sans-serif;
-}
 
 ul {
     list-style: none;
@@ -129,16 +126,11 @@ img {
 }
 
 .btn-small {
-    font-size: 16px;
     padding: 10px 16px;
 }
 
 .btn-big {
     padding: 10px 36px;
-}
-
-.team .btn-big {
-    font-size: 16px;
 }
 
 .btn-blue {
@@ -157,12 +149,23 @@ img {
 /* #endregion */
 
 /* #region TYPOGRAPHY */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: clamp(12px, 1vw, 16px);
+}
+
 h2 {
-    font-size: 40px;
+    font-size: clamp(20px, 2.5vw, 40px);
 }
 
 h3 {
-    font-size: 25px;
+    font-size: clamp(12.5px, 1.56vw, 25px);
+}
+
+.btn,
+.business-plan,
+footer ul {
+    font-size: clamp(11px, 0.88vw, 14px);
 }
 
 header a,
@@ -174,21 +177,14 @@ header a {
     color: #000000;
 }
 
-.hero h1 {
-    font-size: 80px;
+h1 {
+    font-size: clamp(40px, 5vw, 80px);
 }
 
 .hero i {
-    font-size: 50px;
+    font-size: clamp(25px, 3.13vw, 50px);
 }
 
-.business-plan {
-    font-size: 14px;
-}
-
-.business-plan h3 {
-    font-size: 25px;
-}
 
 .business-plan .price {
     font-weight: 700;
@@ -202,7 +198,8 @@ header a {
     color: #0063ff;
 }
 
-.square-center {
+.square-center,
+footer .fa-solid {
     font-size: 12px;
 }
 
@@ -218,16 +215,8 @@ footer * {
     color: #ffffff;
 }
 
-footer ul {
-    font-size: 14px;
-}
-
 footer .language * {
     color: #999999;
-}
-
-footer .fa-solid {
-    font-size: 12px;
 }
 
 /* #endregion */

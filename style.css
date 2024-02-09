@@ -121,17 +121,21 @@ img {
 /* #endregion */
 
 /* #region TYPOGRAPHY */
-header a {
-    color: #000000;
-    text-decoration: none;
-}
-
 h2 {
     font-size: 40px;
 }
 
 h3 {
     font-size: 25px;
+}
+
+header a,
+footer a {
+    text-decoration: none;
+}
+
+header a {
+    color: #000000;
 }
 
 .hero h1 {
@@ -168,6 +172,22 @@ h3 {
 
 .faq .cordion {
     font-weight: 700;
+}
+
+footer * {
+    color: #ffffff;
+}
+
+footer ul {
+    font-size: 14px;
+}
+
+footer .language * {
+    color: #999999;
+}
+
+footer .fa-solid {
+    font-size: 12px;
 }
 
 /* #endregion */
@@ -467,5 +487,32 @@ main {
 }
 
 /* #endregion */
+
+/* #endregion */
+
+/* #region FOOTER */
+footer {
+    background: #000000;
+}
+
+footer h3 {
+    margin: 104px 0 30px;
+}
+
+footer ul {
+    margin: 0 0 114px;
+}
+
+footer ul li:not(:last-child) {
+    margin: 0 0 22px;
+}
+
+footer hr {
+    width: 10%;
+}
+
+footer .language {
+    margin: 50px 0 0;
+}
 
 /* #endregion */

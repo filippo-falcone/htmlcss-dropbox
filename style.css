@@ -86,12 +86,19 @@ img {
 
 /* #region BUTTON */
 .btn {
-    font-size: 16px;
     font-family: 'Open Sans', sans-serif;
-    padding: 10px 16px;
     background: transparent;
     border: transparent;
     cursor: pointer;
+}
+
+.btn-small {
+    font-size: 16px;
+    padding: 10px 16px;
+}
+
+.btn-big {
+    padding: 10px 36px;
 }
 
 .btn-blue {
@@ -110,7 +117,7 @@ img {
 /* #endregion */
 
 /* #region TYPOGRAPHY */
-a {
+header a {
     color: #000000;
     text-decoration: none;
 }
@@ -127,11 +134,29 @@ h2 {
     font-size: 40px;
 }
 
+.business-plan {
+    font-size: 14px;
+}
+
+.business-plan h3 {
+    font-size: 25px;
+}
+
+.business-plan .col-main .price {
+    font-weight: 700;
+}
+
+.business-plan .col-main div:nth-child(3) {
+    color: #b5b2b2;
+}
+
+.plan-resume-list .fa-solid.fa-check {
+    color: #0063ff;
+}
+
 /* #endregion */
 
 /* #region HEADER */
-
-
 .header-top {
     padding: 20px;
     background: #ffffff;
@@ -166,9 +191,7 @@ h2 {
     margin: 0 0 0 20px;
 }
 
-/* ---------
-    HERO
---------- */
+/* #region HERO */
 .hero {
     background: #b4d0e7;
 }
@@ -196,12 +219,15 @@ h2 {
 
 /* #endregion */
 
+/* #endregion */
+
 /* #region MAIN */
 main {
     background: #ffffff;
     padding: 160px 0 150px;
 }
 
+/* #region PLAN SECTION */
 .business-plan .col-30,
 .business-row {
     border: 1px solid #d0d0d0;
@@ -247,11 +273,59 @@ main {
 }
 
 .input-radio small {
+    font-size: 14px;
     margin: 0 0 0 8px;
+}
+
+.business-plan .col-30>.col-header {
+    padding: 12px 0;
+    border-bottom: 1px solid #d0d0d0;
+    text-align: center;
+}
+
+.business-plan .col-30>.col-main {
+    padding: 38px 28px 0;
+}
+
+.business-plan .col-main .price {
+    margin: 26px 0 16px;
+}
+
+.business-plan .col-main li {
+    display: flex;
+}
+
+.business-plan .col-main li:not(:last-child) {
+    margin: 0 0 28px;
+}
+
+.business-plan .col-main li>i {
+    padding: 4px 0 0;
+    margin: 0 6px 0 0;
+}
+
+.business-plan .plan-service-list {
+    margin: 54px 0;
+}
+
+.business-plan .col-main button {
+    margin: 0 0 36px 0;
+}
+
+.business-plan .col-main hr {
+    width: 20%;
+    margin: 44px 0 55px;
+    border-top: 1px solid #d0d0d0;
+}
+
+.plan-resume-list {
+    margin: 36px 0 50px 0;
 }
 
 .business-row {
     margin: 50px 0 0;
 }
+
+/* #endregion */
 
 /* #endregion */

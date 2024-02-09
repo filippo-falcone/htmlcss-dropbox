@@ -126,8 +126,12 @@ header a {
     text-decoration: none;
 }
 
-main h1 {
+h2 {
     font-size: 40px;
+}
+
+h3 {
+    font-size: 25px;
 }
 
 .hero h1 {
@@ -158,8 +162,12 @@ main h1 {
     color: #0063ff;
 }
 
-.feature h1 {
-    font-size: 40px;
+.team-bottom h2 {
+    color: #61082b;
+}
+
+.faq .cordion {
+    font-weight: 700;
 }
 
 /* #endregion */
@@ -253,7 +261,7 @@ main {
     margin: 0 49.7px 0 0;
 }
 
-.business-plan h1 {
+.business-plan h2 {
     margin: 0 0 72px;
 }
 
@@ -390,7 +398,7 @@ main {
 /* #endregion */
 
 /* #region FEATURE SECTION */
-.feature h1 {
+.feature h2 {
     margin: 0 0 64px;
 }
 
@@ -423,7 +431,7 @@ main {
     padding: 150px 0;
 }
 
-.team-top h1 {
+.team-top h2 {
     margin: 0 0 64px;
 }
 
@@ -438,6 +446,24 @@ main {
 
 .team-bottom button {
     margin: 10px 0 0;
+}
+
+/* #endregion */
+
+/* #region FAQ SECTION */
+.faq {
+    margin: 160px 0 149px;
+}
+
+.faq h2 {
+    margin: 0 0 58px;
+}
+
+.faq .cordion {
+    margin: 40px 0;
+    padding: 0 50px 0 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* #endregion */

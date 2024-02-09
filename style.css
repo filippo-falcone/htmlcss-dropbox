@@ -150,8 +150,12 @@ header a {
     color: #b5b2b2;
 }
 
-.plan-resume-list .fa-solid.fa-check {
+.business-plan .plan-resume-list .fa-solid.fa-check {
     color: #0063ff;
+}
+
+.feature h1 {
+    font-size: 40px;
 }
 
 /* #endregion */
@@ -229,6 +233,10 @@ main {
 
 .partner {
     margin: 150px 0 170px;
+}
+
+.feature {
+    margin: 0 0 210px;
 }
 
 /* #region PLAN SECTION */
@@ -377,4 +385,18 @@ main {
 
 /* #endregion */
 
+/* #region FEATURE SECTION */
+.feature h1 {
+    margin: 0 0 64px;
+}
+
+.feature .row:not(:last-child) {
+    margin: 0 0 50px;
+}
+
+.feature .col-33 .text {
+    padding: 0 48px 0 0;
+}
+
+/* #endregion */
 /* #endregion */

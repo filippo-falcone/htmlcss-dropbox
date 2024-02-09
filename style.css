@@ -500,8 +500,8 @@ main {
 }
 
 .team-square-big {
-    width: 33.33333vw;
-    height: 33.33333vw;
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
     display: flex;
     flex-wrap: wrap;
 }

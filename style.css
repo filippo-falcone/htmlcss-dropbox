@@ -130,7 +130,7 @@ header a {
     font-size: 50px;
 }
 
-h2 {
+.business-plan h2 {
     font-size: 40px;
 }
 
@@ -225,6 +225,10 @@ h2 {
 main {
     background: #ffffff;
     padding: 160px 0 150px;
+}
+
+.partner {
+    margin: 150px 0 170px;
 }
 
 /* #region PLAN SECTION */
@@ -358,6 +362,17 @@ main {
 
 .business-row .row-main .price {
     margin: 20px 0 56px;
+}
+
+/* #endregion */
+
+/* #region PARTNER SECTION */
+.partner .col-40 {
+    padding: 50px 30px 0 46px;
+}
+
+.partner .col-40 p {
+    margin: 18px 10px 34px 0;
 }
 
 /* #endregion */

@@ -20,6 +20,42 @@ img {
     max-width: 100%;
 }
 
+.bg-green {
+    background: #a2d39b;
+}
+
+.bg-grape {
+    background: #61082b;
+}
+
+.bg-cyan {
+    background: #0093ce;
+}
+
+.bg-red {
+    background: #ff1c1c;
+}
+
+.bg-grey {
+    background: #f5f5f5;
+}
+
+.bg-dark-red {
+    background: #d5001f;
+}
+
+.bg-light-blue {
+    background: #b4d0e7;
+}
+
+.bg-blue {
+    background: #022481;
+}
+
+.bg-yellow {
+    background: #ffd830;
+}
+
 /* #endregion */
 
 /* #region GRID LAYOUT */
@@ -453,6 +489,26 @@ main {
 
 .team-top h2 {
     margin: 0 0 64px;
+}
+
+.team-center {
+    display: flex;
+}
+
+.team-square-big {
+    width: 33.33333vw;
+    height: 33.33333vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team-square-small {
+    width: 50%;
+    height: 50%;
+}
+
+.team-square-small.bg-green {
+    border: 14px solid #d1e9cd
 }
 
 .team-bottom {

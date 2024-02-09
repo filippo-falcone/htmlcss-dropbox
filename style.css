@@ -202,6 +202,10 @@ header a {
     color: #0063ff;
 }
 
+.square-center {
+    font-size: 12px;
+}
+
 .team-bottom h2 {
     color: #61082b;
 }
@@ -502,13 +506,39 @@ main {
     flex-wrap: wrap;
 }
 
+.square-center {
+    padding: 30px;
+    display: block;
+}
+
+.square-center img {
+    max-width: 50%;
+}
+
+.square-center hr {
+    width: 20%;
+    margin: 40px 0;
+}
+
+.square-center p {
+    margin: 0 0 56px;
+}
+
 .team-square-small {
     width: 50%;
     height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-square-small img {
+    max-width: 50%;
+    filter: invert(100%);
 }
 
 .team-square-small.bg-green {
-    border: 14px solid #d1e9cd
+    border: 10px solid #d1e9cd
 }
 
 .team-bottom {

@@ -101,6 +101,10 @@ img {
     padding: 10px 36px;
 }
 
+.team .btn-big {
+    font-size: 16px;
+}
+
 .btn-blue {
     color: #ffffff;
     background: #0061ff;
@@ -236,7 +240,7 @@ main {
 }
 
 .feature {
-    margin: 0 0 210px;
+    margin: 0 0 60px;
 }
 
 /* #region PLAN SECTION */
@@ -403,4 +407,39 @@ main {
 }
 
 /* #endregion */
+
+/* #region TEAM SECTION */
+.team .container-small {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.team-title {
+    width: 600px;
+}
+
+.team-top {
+    padding: 150px 0;
+}
+
+.team-top h1 {
+    margin: 0 0 64px;
+}
+
+.team-bottom {
+    padding: 140px 0 134px;
+    background: #b4d0e7;
+}
+
+.team-bottom .team-title {
+    padding: 0 20px 0 0;
+}
+
+.team-bottom button {
+    margin: 10px 0 0;
+}
+
+/* #endregion */
+
 /* #endregion */

@@ -59,6 +59,7 @@ img {
 .container-big,
 .container-small {
     margin: auto;
+    padding: 0 10px;
 }
 
 .container-big {
@@ -70,10 +71,10 @@ img {
 }
 
 .row {
+    margin: 0 -10px;
     display: flex;
     flex-wrap: wrap;
 }
-
 
 .col-20 {
     width: 20%;
@@ -119,7 +120,6 @@ img {
 
 /* #region BUTTON */
 .btn {
-    font-family: 'Open Sans', sans-serif;
     background: transparent;
     border: transparent;
     cursor: pointer;
@@ -149,8 +149,12 @@ img {
 /* #endregion */
 
 /* #region TYPOGRAPHY */
-body {
+body,
+.btn {
     font-family: 'Open Sans', sans-serif;
+}
+
+body {
     font-size: clamp(12px, 1vw, 16px);
 }
 
@@ -164,6 +168,7 @@ h3 {
 
 .btn,
 .business-plan,
+.input-radio small,
 footer ul {
     font-size: clamp(11px, 0.88vw, 14px);
 }
@@ -222,10 +227,16 @@ footer .language * {
 /* #endregion */
 
 /* #region HEADER */
+.header-left,
+.header-right,
+.header-top ul,
+.header-top {
+    display: flex;
+}
+
 .header-top {
     padding: 20px;
     background: #ffffff;
-    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     position: sticky;
@@ -234,14 +245,8 @@ footer .language * {
     z-index: 10;
 }
 
-.header-left,
-.header-right {
-    display: flex;
-}
-
 .header-top ul {
     padding: 10px 0;
-    display: flex;
 }
 
 .header-top ul li:not(:last-child) {
@@ -307,16 +312,13 @@ main {
     border: 1px solid #d0d0d0;
 }
 
-.business-plan .row>:not(:last-child) {
-    margin: 0 49.7px 0 0;
+.business-plan .row {
+    padding: 0 10px;
+    gap: 48.2px;
 }
 
 .business-plan h2 {
     margin: 0 0 72px;
-}
-
-.business-plan>:nth-child(3) {
-    margin: 0 0 0 50px;
 }
 
 .input-radio input[type=radio] {
@@ -347,7 +349,6 @@ main {
 }
 
 .input-radio small {
-    font-size: 14px;
     margin: 0 0 0 8px;
 }
 
@@ -437,6 +438,10 @@ main {
 /* #endregion */
 
 /* #region PARTNER SECTION */
+.partner .col-60 {
+    padding: 0 10px;
+}
+
 .partner .col-40 {
     padding: 50px 30px 0 46px;
 }
@@ -452,7 +457,7 @@ main {
     margin: 0 0 64px;
 }
 
-.feature .row:not(:last-child) {
+.feature .row {
     margin: 0 0 50px;
 }
 

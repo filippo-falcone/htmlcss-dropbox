@@ -472,8 +472,13 @@ main {
 /* #endregion */
 
 /* #region TEAM SECTION */
-.team .container-small {
+.team .container-small,
+.team-center,
+.team-square-small {
     display: flex;
+}
+
+.team .container-small {
     justify-content: space-between;
     align-items: flex-start;
 }
@@ -488,10 +493,6 @@ main {
 
 .team-top h2 {
     margin: 0 0 64px;
-}
-
-.team-center {
-    display: flex;
 }
 
 .team-square-big {
@@ -522,7 +523,6 @@ main {
 .team-square-small {
     width: 50%;
     height: 50%;
-    display: flex;
     justify-content: center;
     align-items: center;
 }

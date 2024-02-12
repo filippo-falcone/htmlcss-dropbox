@@ -535,7 +535,7 @@ main {
 
 .team-square-small img {
     max-width: 50%;
-    filter: invert(100%);
+    filter: invert(1);
 }
 
 .team-square-small.bg-green {

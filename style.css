@@ -118,8 +118,12 @@ img {
 /* #endregion */
 
 /* #region BUTTON */
-.btn {
+.btn,
+.btn.btn-blue:hover {
     background: transparent;
+}
+
+.btn {
     border: transparent;
     cursor: pointer;
 }
@@ -132,7 +136,9 @@ img {
     padding: 10px 36px;
 }
 
-.btn-blue {
+.btn-blue,
+.btn.btn-border:hover,
+.btn.btn-white:hover {
     color: #ffffff;
     background: #0061ff;
 }
@@ -141,8 +147,18 @@ img {
     background: #ffffff;
 }
 
-.btn-border {
+.btn-border,
+.btn.btn-blue:hover {
     border: 1px solid;
+}
+
+.btn:hover {
+    transition: all 1s ease-in-out;
+}
+
+.btn.btn-blue:hover {
+    background: transparent;
+    color: #000000;
 }
 
 /* #endregion */
@@ -590,7 +606,7 @@ main {
 }
 
 .faq .accordion i {
-    transition: all 0.5s ease-out;
+    transition: all 0.5s ease-in-out;
 }
 
 .faq .accordion:hover i {

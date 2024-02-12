@@ -319,7 +319,7 @@ main {
 
 .business-plan .row {
     padding: 0 10px;
-    gap: 48.2px;
+    justify-content: space-between;
 }
 
 .business-plan h2 {

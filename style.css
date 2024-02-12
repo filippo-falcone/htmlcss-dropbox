@@ -251,14 +251,15 @@ footer .language * {
 /* #region HEADER */
 .header-left,
 .header-right,
-.header-top ul,
-.header-top {
+header ul,
+header {
     display: flex;
 }
 
-.header-top {
+header {
     padding: 20px;
     background: #ffffff;
+    box-shadow: -2px 0 5px -2px #000000;
     justify-content: space-between;
     flex-wrap: wrap;
     position: sticky;
@@ -267,15 +268,15 @@ footer .language * {
     z-index: 10;
 }
 
-.header-top ul {
+header ul {
     padding: 10px 0;
 }
 
-.header-top ul li:not(:last-child) {
+header ul li:not(:last-child) {
     margin: 0 40px 0 0;
 }
 
-.header-top .btn {
+header .btn {
     margin: 0 0 0 20px;
 }
 
@@ -284,11 +285,35 @@ footer .language * {
     margin: 8px 40px 0 0;
 }
 
-/* #region HERO */
+/* #endregion */
+
+/* #region MAIN */
+main {
+    padding: 0 0 150px;
+}
+
 .hero {
     background: #b4d0e7;
 }
 
+.business-plan {
+    padding: 160px 0;
+    background: #ffffff;
+}
+
+.partner {
+    margin: 150px 0 170px;
+}
+
+.feature {
+    margin: 0 0 60px;
+}
+
+.faq {
+    margin: 160px 0 149px;
+}
+
+/* #region HERO SECTION */
 .container-big>.row {
     position: relative;
     margin: 0 0 -60px;
@@ -316,22 +341,6 @@ footer .language * {
 }
 
 /* #endregion */
-
-/* #endregion */
-
-/* #region MAIN */
-main {
-    background: #ffffff;
-    padding: 160px 0 150px;
-}
-
-.partner {
-    margin: 150px 0 170px;
-}
-
-.feature {
-    margin: 0 0 60px;
-}
 
 /* #region PLAN SECTION */
 .business-plan .col-main li,
@@ -588,10 +597,6 @@ main {
 /* #endregion */
 
 /* #region FAQ SECTION */
-.faq {
-    margin: 160px 0 149px;
-}
-
 .faq h2 {
     margin: 0 0 58px;
 }

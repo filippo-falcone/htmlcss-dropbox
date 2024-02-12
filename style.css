@@ -509,6 +509,7 @@ main {
 
 .square-center {
     padding: 46px;
+    overflow-y: auto;
     display: block;
 }
 

@@ -233,7 +233,7 @@ footer .fa-solid {
     color: #61082b;
 }
 
-.accordion .original-text {
+.faq span {
     font-weight: 700;
 }
 
@@ -600,31 +600,36 @@ main {
     margin: 0 0 58px;
 }
 
-.faq .accordion {
-    margin: 40px 0;
-    padding: 0 50px 0 0;
+.faq hr {
+    margin: 46px 0;
 }
 
-.faq .accordion .original-text {
-    margin: 0 0 30px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.faq .accordion .hidden-text {
+.faq input[type="checkbox"] {
     display: none;
 }
 
-.faq .accordion i {
+.faq label {
+    padding: 0 44px 0 0;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.faq label i {
     transition: all 0.5s ease-in-out;
 }
 
-.faq .accordion:hover i {
-    transform: rotate(180deg);
+.faq .hidden-text {
+    padding: 10px 10px 0;
+    display: none;
 }
 
-.faq .accordion:hover .hidden-text {
+.faq input:checked~.hidden-text {
     display: block;
+}
+
+.faq input:checked+.rotate i {
+    transform: rotate(180deg);
 }
 
 /* #endregion */

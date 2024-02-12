@@ -312,18 +312,31 @@ main {
 }
 
 /* #region PLAN SECTION */
+.business-plan .col-main li,
+.business-row .main-top {
+    display: flex
+}
+
 .business-plan .col-30,
 .business-row {
     border: 1px solid #d0d0d0;
 }
 
+.business-plan .row,
+.business-row .main-top {
+    justify-content: space-between;
+}
+
 .business-plan .row {
     padding: 0 10px;
-    justify-content: space-between;
 }
 
 .business-plan h2 {
     margin: 0 0 72px;
+}
+
+.input-radio {
+    margin: 0 48px 0 0;
 }
 
 .input-radio input[type=radio] {
@@ -379,10 +392,6 @@ main {
     margin: 16px 0 0;
 }
 
-.business-plan .col-main li {
-    display: flex;
-}
-
 .business-plan .col-main li:not(:last-child) {
     margin: 0 0 28px;
 }
@@ -423,7 +432,6 @@ main {
 }
 
 .business-row .main-top {
-    display: flex;
     justify-content: space-between;
 }
 

@@ -614,7 +614,6 @@ main {
 }
 
 .faq .accordion:hover .hidden-text {
-    transition: all 20ss;
     display: block;
 }
 

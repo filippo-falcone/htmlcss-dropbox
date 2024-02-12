@@ -8,7 +8,6 @@
 /* #endregion */
 
 /* #region GENERAL */
-
 ul {
     list-style: none;
 }
@@ -184,12 +183,12 @@ header a {
 
 header a:hover,
 .business-plan .plan-resume-list .fa-solid.fa-check {
-  color: #0063ff;
+    color: #0063ff;
 }
 
 footer a:hover,
 footer .language small:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 h1 {
@@ -579,11 +578,12 @@ main {
 
 /* #region FOOTER */
 footer {
+    padding: 104px 0 50px;
     background: #000000;
 }
 
 footer h3 {
-    margin: 104px 0 30px;
+    margin: 0 0 30px;
 }
 
 footer ul {

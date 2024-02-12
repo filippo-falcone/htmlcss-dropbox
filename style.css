@@ -137,6 +137,7 @@ img {
 }
 
 .btn-blue,
+.btn:hover,
 .btn.btn-border:hover,
 .btn.btn-white:hover {
     color: #ffffff;
@@ -274,13 +275,13 @@ footer .language * {
     margin: 0 40px 0 0;
 }
 
+.header-top .btn {
+    margin: 0 0 0 20px;
+}
+
 .header-left .logo {
     height: 25px;
     margin: 8px 40px 0 0;
-}
-
-.header-top .btn {
-    margin: 0 0 0 20px;
 }
 
 /* #region HERO */
@@ -297,8 +298,13 @@ footer .language * {
     padding: 104px 0 60px;
 }
 
-.hero .btn {
+.hero .btn-container {
     margin: 34px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 .hero a {
